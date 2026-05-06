@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #360101, #000);
+    color: white;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header-container {
+    padding: 20px 50px;
+}
+
+.logo {
+    color: #e50914;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/* LOGIN BOX */
+.login-box {
+    text-align: center;
+    width: 350px;
+}
+
+/* TÍTULO */
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+
+/* SUBTÍTULO */
+.subtitle {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin-bottom: 25px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* INPUT */
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #e50914;
+}
+
+/* BOTÃO */
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #e50914;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f6121d;
+}
+
+/* AJUDA */
+.help {
+    margin-top: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+
+small {
+    display: block;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: #757575;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-top {
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.language select {
+    background: transparent;
+    border: 1px solid #757575;
+    color: #757575;
+    padding: 8px;
+    border-radius: 4px;
+}
