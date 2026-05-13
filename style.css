@@ -17,10 +17,8 @@ body {
 }
 
 .logo {
-    color: #e50914;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    height: 54px;
+    margin-bottom: 10px;
 }
 
 /* MAIN */
@@ -33,7 +31,7 @@ main {
 
 /* LOGIN BOX */
 .login-box {
-    text-align: center;
+    text-align: start;
     width: 350px;
 }
 
